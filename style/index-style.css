@@ -1,0 +1,45 @@
+body {
+  position: absolute;
+}
+
+#header-section {
+  float: left;
+  position: relative;
+}
+
+#header-section #logo-text {
+  float: left;
+  padding: 2em;
+  font-family: 'Montserrat';
+}
+
+#title-section {
+  position: relative;
+  padding-left: 42em;
+  padding-top: 7em;
+}
+
+#title-section .title-container {
+  cursor: text;
+}
+
+#title-section #title-text {
+  position: relative;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  font-weight: bolder;
+  font-family: 'Open Sans';
+  font-size: 2em;
+}
+
+#title-section #title-text .title {
+  cursor: inherit;
+}
+/*# sourceMappingURL=index-style.css.map */
