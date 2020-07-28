@@ -4,6 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>User Verification Process</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="style/index-style.css">
 </head>
 <body>
@@ -15,10 +23,19 @@
   </div>
   <div id="form-section" class="form-event">
     <form action="script/index-form-script.js" method="get">
-    <label for="username-email" id="username-title-text" class="username-title">Username or Email Address</label>
+    <span id="textbox-event" class="textbox">
+    <!-- <label for="username-email" id="username-title-text" class="username-title">Username or Email Address</label> -->
+    <p id="username-label" class="username-textbox-event">Username or Email Address</p>
     <input type="email" id="username-email" class="email-input-event">  
-    <label for="password-textbox"></label>
+    </span>
+    <!-- <label for="password-textbox"></label> -->
+    <span id="password-event" class="textbox">
+      <p id="password-label" class="password-textbox-event">Password</p>
+      <input type="password" id="password" class="password-input-event">
+    </span>
+    <button type="submit" id="login-button" class="login-button-event">Login</button>
     </form>
   </div>
+  <i class="fa fa-facebook-official" aria-hidden="true"></i>
 </body>
 </html>
